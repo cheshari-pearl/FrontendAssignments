@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <style>
+   #signup{
+    border:solid 1px;
+    width: 50%;
+    padding: 24px;
+    margin: 0 auto;
+}
+.input{
+    padding: 12px 16px;
+    width: 80%;
+    border-radius: 5px;
+    border: solid 1px;}
+
+   button{
+        padding: 6px 12px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        width: 80%;
+    }
+    </style>
+</head>
+<body>
+    <form id="signup"> 
+
+        <p>Already have an account? Sign in</p>
+        <label for="name">Name:</label>
+        <br>
+        <input name="name" type="text" class="input" placeholder="Enter name" required/>
+        <br>
+        <br>
+        <label for="email">Email:</label>
+        <br>
+        <input name="email" type="email" class="input" placeholder="Enter email" required />
+        <br>
+        <br>
+        <label for="psssword">Password</label>
+        <br>
+        <input name="password" type="password" class="input" placeholder="Enter password" required/>
+        <br>
+        <br>
+        <input name="termsofservice" type="checkbox"/>
+        <label for="termsofservice">I've Read And Agree With <b>The Terms Of Service</b> And <b>Our Privacy Policy</b></label>
+        <br>
+        <br>
+        <button><p>Sign Up</p></button>
+    </form>
+</body>
+</html>
