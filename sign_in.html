@@ -5,30 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign In</title>
     <style>
+        
     #signin{
         border:solid 1px;
         width: 50%;
         padding: 24px;
         margin: 0 auto;}
+
+        .input{
+    padding: 12px 16px;
+    width: 80%;
+    border-radius: 5px;
+    border: solid 1px;}
+
+
+        button{
+        padding: 6px 12px;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        background-color: black;
+        width: 80%;
+    }  
+
+    #what {
+        color: white;
+    }
     </style>
 </head>
 <body>
     <form id="signin">
-        <p>Don't have an account? Sign up?</p>
+    <h1><b>Sign In</b></h1>
+        
+        <p>Don't have an account?  <a href="index.html">Sign Up</a></p>
         <label for="email">Email:</label>
         <br>
-        <input name="email" type="email" placeholder="Enter email" required/>
+        <input name="email" class="input" type="email" placeholder="Sadesaadi2@Gmail.Com" required/>
         <br>
         <br>
-        <label for="password">Password</label>
+        <label for="password">Password:</label>
         <br>
-        <input name="password" type="password" placeholdeer="Enter password" required/>
+        <input class="input" name="password" type="password" placeholder="Kmkjl4566" required/>
         <br>
         <br>
         
         <input name="termsofservice" type="checkbox"/>
         <label for="termsofservice" >I've Read And Agree With <b>The Terms Of Service</b> And<b>Our Privacy Policy</b></label>
-        <button><p>Sign Up</p></button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <p>_____________________________________Or Sign In With____________________________________________</p>
+        <br>
+        <br>
+        <br>
+        <button><a href="tables.html" id="what">Sign In</a></button>
     </form>
 </body>
 </html>
